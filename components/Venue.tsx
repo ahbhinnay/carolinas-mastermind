@@ -32,7 +32,7 @@ export default function Venue() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-4">Venue</h2>
-          <p className="text-xl text-gray-600">Riverside Convention Center - Where Innovation Meets Elegance</p>
+          <p className="text-xl text-gray-600">Courtyard Wilmington Downtown/Historic District</p>
         </div>
 
         <div className="max-w-3xl mx-auto space-y-8">

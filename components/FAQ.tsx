@@ -1,9 +1,4 @@
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion"
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const faqs = [
   {
@@ -16,21 +11,24 @@ const faqs = [
   },
   {
     question: "Are accommodations provided?",
-    answer: "Accommodations are not included in the ticket price. However, we have partnered with local hotels to offer discounted rates for attendees.",
+    answer:
+      "Accommodations are not included in the ticket price. However, we have partnered with local hotels to offer discounted rates for attendees.",
   },
   {
     question: "Is this event suitable for all experience levels?",
-    answer: "Yes, our event caters to a range of experience levels, from newcomers to seasoned professionals in the multifamily real estate industry.",
+    answer:
+      "Yes, our event caters to a range of experience levels, from newcomers to seasoned professionals in the multifamily real estate industry.",
   },
   {
     question: "Will there be post-event materials available?",
-    answer: "Yes, all attendees will receive access to a digital resource package including presentation slides and additional materials after the event.",
+    answer:
+      "Yes, all attendees will receive access to a digital resource package including presentation slides and additional materials after the event.",
   },
   {
     question: "How can I register a group?",
-    answer: "For group registrations of 3 or more, please contact our team at groups@carolinasmultifamily.com to receive your 10% discount.",
+    answer: "For group registrations of 3 or more, please contact our team at groups@toothandnailinvestments.com to receive your 10% discount.",
   },
-]
+];
 
 export default function FAQ() {
   return (
@@ -46,10 +44,12 @@ export default function FAQ() {
           ))}
         </Accordion>
         <p className="mt-8 text-center text-gray-600">
-          Have more questions? Contact us at <a href="mailto:info@carolinasmultifamily.com" className="text-blue-600 hover:underline">info@carolinasmultifamily.com</a>
+          Have more questions? Contact us at{" "}
+          <a href="mailto:info@toothandnailinvestments.com" className="text-blue-600 hover:underline">
+            info@toothandnailinvestments.com
+          </a>
         </p>
       </div>
     </section>
-  )
+  );
 }
-
